@@ -1,0 +1,61 @@
+
+  /* Chức năng admin */
+  .wapper-chucnang-ad{
+    padding: 5ch;
+}
+h1.form-heading{
+    font-weight: 700;
+    font-size: 3ch;
+    color: #000000;
+    text-shadow:0 0 7px #ff235e;
+
+  }
+
+form.reg-chucnang-ad {
+    padding: 3ch;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.form-group,
+.chucnang-ad{
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input[class=form-input]{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 40%;
+    margin: 10px;
+}
+
+.form-group textarea[class=form-input]{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin: 10px;
+}
+.chucnang-ad{
+    margin: 2ch;
+}
+.chucnang-ad a{
+    text-decoration: none;
+    padding: 3ch;
+    color: #000;
+}
+.chucnang-ad a:hover{
+    color: pink;
+}
+.chucnang-ad button[class=dangki]{ 
+    background-color: #ff0088;
+    color: white;
+}
+.chucnang-ad button[class=dangki]:hover{ 
+    box-shadow:0 0 3px #000000;
+
+}

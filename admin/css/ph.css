@@ -1,0 +1,27 @@
+.phanhoi{
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.bang-phanhoi{
+    padding: 3ch;
+}
+.bang-phanhoi table{
+    padding: 3ch;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 7px black;
+
+}
+tr th{
+    border: 1px solid black;
+}
+tr td{
+    border: 1px solid black;
+    padding: 2ch 4ch;
+}
+table{
+    border-collapse:collapse;
+}

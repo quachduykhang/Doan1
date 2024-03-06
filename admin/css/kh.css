@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e2e2e2;
+}
+
+.maincontent {
+    padding: 3ch;
+    margin: 20px auto;
+}
+
+.Font {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.button1 i {
+    margin-right: 5px;
+}
+
+.button1:hover {
+    background-color: #0056b3;
+}
+
+.button1:active {
+    background-color: #004080;
+}
+
+.button1:visited {
+    color: #fff;
+}

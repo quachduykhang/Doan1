@@ -1,0 +1,48 @@
+
+/* css dang nhap */
+/* Style for the container of the login form */
+#login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the headings */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style for the input boxes */
+  .inputBx {
+    margin-bottom: 15px;
+  }
+  
+  .inputBx input[type="text"],
+  .inputBx input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for the submit button */
+  .dangnhap {
+    background-color: #AAAAAA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .dangnhap:hover {
+    background-color: #AAAAAA;
+  }
+
+.buttom{
+  width: 5ch;
+}
+  

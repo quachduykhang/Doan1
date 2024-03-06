@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffe0e0;
+}
+.nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #333;
+color: #fff;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 999;
+}
+
+.nav h1 {
+margin: 0;
+}
+
+.navbar {
+display: flex;
+}
+
+.navbar a {
+text-decoration: none;
+color: #fff;
+padding: 10px;
+margin-right: 20px;
+transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+background-color: #555;
+}
+
+.product-info {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    width: 100px;
+}
+
+input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    resize: vertical;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Định dạng nút xóa */
+#delete-button {
+    background-color: #FF0000;
+}
+.image-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+}
